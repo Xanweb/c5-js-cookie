@@ -1,9 +1,16 @@
 <?php defined('C5_EXECUTE') or die('Access Denied.');
 
+use Concrete\Core\Asset\Asset;
 use Xanweb\ExtAsset\Asset\VendorAssetManager;
 
 VendorAssetManager::registerMultiple([
     'js-cookie' => [
-        ['vendor-javascript', 'js/js.cookie.min.js', 'xanweb/c5-js-cookie', ['minify' => false, 'version' => '3.0.0-beta.3']],
+        [
+            'vendor-javascript', 'js/js.cookie.min.js', 'xanweb/c5-js-cookie', [
+                'minify' => false,
+                'version' => '3.0.0-beta.3',
+                'position' => Asset::ASSET_POSITION_HEADER
+            ]
+        ],
     ],
 ]);
