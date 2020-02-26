@@ -10,7 +10,7 @@
         ]
     },
     "require": {
-        "xanweb/ext-asset": "^1.0"
+        "xanweb/c5-ext-asset": "^1.0"
     },
     "support": {
         "source": "https://github.com/xanweb/c5-js-cookie"
