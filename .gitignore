@@ -7,33 +7,14 @@ __MACOSX
 .*swp
 .*swo
 .env
-.ftpquota
+
+# ignore node files
+/node_modules/
 
 # ignore composer files
 composer.phar
 composer.lock
-
-# ignore domain security files
-.htaccess
-.htpasswd
-
-/concrete/
-
-# ignore IDE project files
-.project
-/nbproject/
-/.idea/
-
-# ignore Eclipse-specific files
-/.settings/
-/.buildpath
-
-# ignore PHP symbol map
-__IDE_SYMBOLS__.php
-.phpstorm.meta.php
-
-# phpunit
-.phpunit.result.cache
+/vendor/
 
 # php-cs-fixer
 .php_cs.cache
