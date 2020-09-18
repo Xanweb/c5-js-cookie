@@ -8,7 +8,7 @@ VendorAssetManager::registerMultiple([
         [
             'vendor-javascript', 'js/js.cookie.min.js', 'xanweb/c5-js-cookie', [
                 'minify' => false,
-                'version' => '3.0.0-rc.0',
+                'version' => '3.0.0-rc.1',
                 'position' => Asset::ASSET_POSITION_HEADER,
             ],
         ],
