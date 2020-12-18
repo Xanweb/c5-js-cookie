@@ -6,15 +6,11 @@ __MACOSX
 ._*
 .*swp
 .*swo
-.env
 
 # ignore node files
-/node_modules/
+/build/node_modules/
 
 # ignore composer files
 composer.phar
 composer.lock
 /vendor/
-
-# php-cs-fixer
-.php_cs.cache
