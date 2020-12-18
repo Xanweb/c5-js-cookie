@@ -1,4 +1,4 @@
-<?php defined('C5_EXECUTE') or die('Access Denied.');
+<?php
 
 use Concrete\Core\Asset\Asset;
 use Xanweb\ExtAsset\Asset\VendorAssetManager;
